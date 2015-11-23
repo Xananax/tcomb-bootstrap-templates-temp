@@ -14,8 +14,8 @@ export default function NavBarForm(props){
 
 	props = Object.assign({},props,{className})
 
-	return (<form className="navbar-form navbar-right">
+	return (<form {...props}>
 		{form}
 	</form>);
-	
+
 }
